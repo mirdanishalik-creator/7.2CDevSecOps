@@ -3,11 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git 'https://github.com/mirdanishalik-creator/7.2CDevSecOps.git'
-            }
-        }
+       {
 
         stage('Install') {
             steps {
